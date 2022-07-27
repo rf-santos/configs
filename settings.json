@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "defaultProfile": "{192a7149-849a-47cc-87a9-adb24b3e9fb5}",
     "profiles": 
     {
         "defaults": 
@@ -51,12 +51,11 @@
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "icon": "C:\\Users\\rsanto25\\OneDrive - Capgemini\\Pictures\\logos\\ubuntu.ico",
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe /K C:\\Users\\rsanto25\\Anaconda3\\Scripts\\activate.bat C:\\Users\\rsanto25\\Anaconda3",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe /K %USERPROFILE%\\Anaconda3\\Scripts\\activate.bat %USERPROFILE%\\Anaconda3",
                 "guid": "{192a7149-849a-47cc-87a9-adb24b3e9fb5}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\Anaconda3\\Menu\\anaconda-navigator.ico",
@@ -79,6 +78,14 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "commandline": "%USERPROFILE%\\AppData\\Local\\Programs\\Git\\git-bash.exe",
+                "guid": "{225e9886-ab73-44f9-bce5-f5d76b3dfee6}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\AppData\\Local\\Programs\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git bash",
+                "startingDirectory": "%HOMEDRIVE%%HOMEPATH%"
             }
         ]
     },
